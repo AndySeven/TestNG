@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Homework Listener Suite" parallel = "methods" thread-count = "2" verbose="5">
+	<listeners>
+		<listener class-name="com.syntax.util.Listeners" />
+	</listeners>
+	<test name="Homework Listener Test">
+		<!-- <groups> <run> <include name="homework"></include> </run> </groups> -->
+		<classes>
+			<class name="com.syntax.class03.HW" />
+		</classes>
+	</test>
+</suite>

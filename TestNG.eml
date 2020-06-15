@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="JavaSE-1.8" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="client-combined-3.141.59.jar" scope="COMPILE">
+		<srcroot url="jar://$USER_HOME$/Documents/JarFiles/selenium-java-3/client-combined-3.141.59-sources.jar!/"/>
+	</lib>
+	<lib name="poi-ooxml-4.1.2.jar" scope="COMPILE">
+		<srcroot url="jar://$USER_HOME$/Documents/JarFiles/apache/poi-4.1.2/poi-4.1.2.jar!/"/>
+	</lib>
+	<lib name="poi-4.1.2.jar" scope="COMPILE">
+		<srcroot url="file:///JavaBasics"/>
+	</lib>
+	<lib name="commons-io-2.6.jar" scope="COMPILE">
+		<srcroot url="file://$USER_HOME$/Documents/JarFiles/common IO/commons-io-2.6-src"/>
+	</lib>
+</component>

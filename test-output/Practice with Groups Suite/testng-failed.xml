@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Practice with Groups Suite]">
+  <test thread-count="5" verbose="10" name="Test Groups(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.LoginTest">
+        <methods>
+          <include name="validAdminLogin"/>
+        </methods>
+      </class> <!-- com.test.LoginTest -->
+      <class name="com.test.AddEmployeeTest">
+        <methods>
+          <include name="addEmployee"/>
+        </methods>
+      </class> <!-- com.test.AddEmployeeTest -->
+    </classes>
+  </test> <!-- Test Groups(failed) -->
+</suite> <!-- Failed suite [Practice with Groups Suite] -->
